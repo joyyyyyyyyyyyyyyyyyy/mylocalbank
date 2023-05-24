@@ -147,10 +147,10 @@ public class MainActivity extends AppCompatActivity {
     private void updateFavoriteState(TextView textView, boolean isFavourite) {
         if (isFavourite) {
             textView.setTextColor(Color.parseColor("#FFFF0000"));
-            Toast.makeText(MainActivity.this, "Added to Favorites", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Added to Favorites", Toast.LENGTH_LONG).show();
         } else {
             textView.setTextColor(Color.parseColor("#FFFFFFFF"));
-            Toast.makeText(MainActivity.this, "Removed from Favorites", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Removed from Favorites", Toast.LENGTH_LONG).show();
         }
     }
 
